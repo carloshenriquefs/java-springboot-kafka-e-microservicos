@@ -34,7 +34,7 @@ public class CarPostServiceImpl implements CarPostService {
         return listCarsSales;
     }
 
-    public void changeCarSales(CarPostDTO carPostDTO, Long postId) {
+    public void changeCarSale(CarPostDTO carPostDTO, Long postId) {
         carPostRepository.findById(postId).ifPresentOrElse(item -> {
             item.setDescription(carPostDTO.getDescription());
             item.setContact(carPostDTO.getContact());

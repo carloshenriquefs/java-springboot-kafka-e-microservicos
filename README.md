@@ -40,6 +40,6 @@
 
 ##
 
-### :department_store: - Extrutura:
+### :department_store: - Estrutura:
 
 ![curso](https://github.com/carloshenriquefs/java-springboot-kafka-e-microservicos/assets/54969405/f131238a-91a8-4d72-8bc4-e764a743375a)
